@@ -261,13 +261,6 @@ section .title::after{
 .about .about-content .right .skills-info{
     color: #f9af20;   
 }
-
-.disappearing-box {
-    animation: column 2s infinite alternate;
-    display: block;
-    margin: 50px auto;
-    opacity: 0;
-  }
  
 
   /* teams section styling */

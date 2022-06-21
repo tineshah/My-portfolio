@@ -20,7 +20,7 @@
     100% { transform: rotate( 0.0deg) }
   }
  
-  .Row {
+  .row {
     display: flex;
     width: 100px; 
     table-layout: fixed; 
