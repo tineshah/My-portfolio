@@ -262,8 +262,7 @@ section .title::after{
     color: #f9af20;   
 }
  
-
-  /* teams section styling */
+/* teams section styling */
 .teams .title::after{
     content: "What i done";
 }
@@ -325,7 +324,6 @@ section .title::after{
 .owl-dot:hover{
     background: #f9af20!important;
 }
-
 
 /* contact section styling */
 .contact .title::after{
