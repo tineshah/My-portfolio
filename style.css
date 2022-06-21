@@ -325,6 +325,15 @@ section .title::after{
     background: #f9af20!important;
 }
 
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
 /* contact section styling */
 .contact .title::after{
     content: "get in touch";

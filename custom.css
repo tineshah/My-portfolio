@@ -27,7 +27,7 @@
   
 }
 .Column {
-  flex: 1 1 0px;
+  display: flex;
   margin-right: 100px;
   margin-top: 20px;
   overflow: hidden;
