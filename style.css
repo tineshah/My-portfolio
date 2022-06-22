@@ -272,8 +272,8 @@ animation: dancebabydance 4s infinite alternate;
   
   @media screen and (max-width: 1200px) {
     .bounce-box {
-        width: 100%;
-   max-width: 500px;
+        max-width: 100%;
+   object-fit: cover;
     }
 }
 
