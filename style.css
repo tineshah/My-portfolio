@@ -264,14 +264,18 @@ section .title::after{
 animation: dancebabydance 4s infinite alternate;  
 }
  
-.disappearing-box {
-    animation: houdini 2s infinite alternate;
+.bounce-box {
+    animation: bounce 1s infinite alternate;
     display: block; /* I bet you forgot img is an inline element didn't you? */
     margin: 50px auto;
-    opacity: 0;
   }
   
-
+  @media screen and (max-width: 1200px) {
+    .bounce-box {
+        width: 100%;
+   max-width: 500px;
+    }
+}
 
 /* teams section styling */
 .teams .title::after{

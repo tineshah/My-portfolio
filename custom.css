@@ -27,14 +27,12 @@
   }
 }
 
-@keyframes houdini {
+@keyframes bounce {
   from {
     transform: translateY(0px);
-    opacity: 0;
   }
   to {
     transform: translateY(-25px);
-    opacity: 1;
   }
 }
 
