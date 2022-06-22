@@ -284,6 +284,7 @@ section .title::after{
     justify-content: center;
     transition: all 0.3s ease;
 }
+
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
 }
