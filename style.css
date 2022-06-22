@@ -75,6 +75,10 @@ section .title::after{
     transform: translateX(-50%);
 }
 
+p{
+    list-style: 2px;
+}
+
 /* navbar styling */
 .navbar{
     position: fixed;
