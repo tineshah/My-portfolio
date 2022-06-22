@@ -33,6 +33,16 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
+    $('.hamburger').on('click', function () {
+      $('.menu').toggleClass('active');
+        });
+        
+        $( '.menu a' ).on("click", function(){
+        $('.menu').toggleClass('active');
+        });
+        
+
+
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
