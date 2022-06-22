@@ -35,12 +35,10 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
-.services .serv-content,
-.skills .skills-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -261,7 +259,20 @@ section .title::after{
 .about .about-content .right .skills-info{
     color: #f9af20;   
 }
+
+.image-dance {
+animation: dancebabydance 4s infinite alternate;  
+}
  
+.disappearing-box {
+    animation: houdini 2s infinite alternate;
+    display: block; /* I bet you forgot img is an inline element didn't you? */
+    margin: 50px auto;
+    opacity: 0;
+  }
+  
+
+
 /* teams section styling */
 .teams .title::after{
     content: "What i done";
