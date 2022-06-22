@@ -275,7 +275,7 @@ animation: dancebabydance 4s infinite alternate;
 
 /* teams section styling */
 .teams .title::after{
-    content: "What i done";
+    content: "What i've done";
 }
 .teams .carousel .card{
     background: #222;
